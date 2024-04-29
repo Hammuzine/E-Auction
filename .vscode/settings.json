@@ -1,0 +1,22 @@
+{
+  "eslint.enable": true,
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always"
+  },
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}
